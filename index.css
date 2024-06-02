@@ -238,3 +238,50 @@ h1{
 .card .save p{
     margin: 0;
 }
+@media only screen and (max-width:850px){
+    .cards-wrapper{
+        flex-wrap: wrap-reverse;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:550px){
+    .container{
+        padding: 10px;
+    }
+    .card{
+        width: 100%;
+    }
+    body{
+        padding: 8px;
+    }
+    h1{
+        margin: 0 0 16px 0;
+    }
+}
+@media only screen and (max-width:450px){
+    .container{
+        padding: 10px;
+    }
+    .card{
+        width: 100%;
+    }
+    body{
+        padding: 0;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .tabs{
+        font-size: .8rem;
+        padding: 0;
+    }
+    .line{
+        top: 85px;
+    }
+    .sessions-card{
+        width: 90%;
+        box-sizing: border-box;
+    }
+}
